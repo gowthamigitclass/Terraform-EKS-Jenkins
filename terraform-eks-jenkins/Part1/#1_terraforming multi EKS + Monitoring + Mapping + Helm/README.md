@@ -13,7 +13,7 @@ terraform apply
 ```
 It might take a while for the clusters to be created (up to 15 minutes).
 
-**1 cluster for development.
+1 cluster for development.
 1 cluster for staging.
 1 cluster for production.
 
