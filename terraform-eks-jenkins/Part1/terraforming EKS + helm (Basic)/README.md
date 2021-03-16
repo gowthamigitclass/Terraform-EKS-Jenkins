@@ -7,9 +7,9 @@ terraform apply
 ```
 It might take a while for the clusters to be created (up to 15 minutes). 
 
-One cluster for development.
-One cluster for staging.
-One cluster for production.
+1 cluster for development.
+1 cluster for staging.
+1 cluster for production.
 In the same folder you will find a kubeconfig file for each cluster.
 
 ### Some more info:
