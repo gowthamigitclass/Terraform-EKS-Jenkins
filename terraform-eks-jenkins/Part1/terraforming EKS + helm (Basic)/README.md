@@ -18,7 +18,7 @@ In the same folder you will find a kubeconfig file for each cluster.
 ### Some more info:
 Terraform file that I created here is divided into several blocks. Please find the brief of each module:
 
-#### First part is to install the ALB Ingress controller. The actual ALB Ingress Controller (the Kubernetes resources such as Pod, ConfigMaps, etc.) can be installed with Helm as a package manager.
+#### First part is to install the ALB Ingress controller using HELM provider. The actual ALB Ingress Controller (the Kubernetes resources such as Pod, ConfigMaps, etc.) can be installed with Helm as a package manager.
 There're two crucial steps that you need to complete to install the controller:
 * Grant the relevant permissions to the worker nodes.
 * Install the Kubernetes resources (such as Deployment, Service, ConfigMap, etc.) necessary to install the controller.
