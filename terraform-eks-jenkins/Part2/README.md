@@ -1,6 +1,6 @@
 # Jenkins pipeline to trigger and deploy EKS cluster with terraform module calls
 
-Deploy AWS EKS via a Jenkins job using terraform. I here by to deploy EKS on AWS environments, specifying some settings via pipeline parameters. Used draw.io (https://app.diagrams.net/) tool to define the pipeline flow diagram below:
+Deploy AWS EKS via a Jenkins job using terraform. I here by to deploy EKS on AWS environments, specifying some settings via pipeline parameters. I have used draw.io (https://app.diagrams.net/) tool to define the pipeline flow diagram below:
 ![image](https://user-images.githubusercontent.com/35074202/111352925-08b84b00-8685-11eb-8913-4765d90d9986.png)
 
 ### Jenkins pipeline
