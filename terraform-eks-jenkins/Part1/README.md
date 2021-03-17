@@ -1,4 +1,4 @@
-## This part contains 3 variations in my code
+## This part1 contains 3 variations in my code with different purposes
 ```
 #1_terraforming multi EKS + Monitoring + Mapping + Helm - This is specific to your Task 1
 terraforming EKS + helm (Basic) - Basic code with 3 cluster provisioning on 3 different environments
