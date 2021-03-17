@@ -9,7 +9,7 @@ variable "aws_region" {
 
 variable "cluster_name" {
   description = "EKS cluster name."
-  default     = "demo"
+  default     = "our-cluster"
   type        = string
 }
 
@@ -36,7 +36,7 @@ variable "vpc-subnets" {
   type        = string
 }
 
-variable "inst-type" {
+variable "instance_type" {
   description = "EKS worker instance type."
   default     = "m5.large"
   type        = string
