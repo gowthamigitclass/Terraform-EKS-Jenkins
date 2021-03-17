@@ -2,7 +2,7 @@
 
 Deploy AWS EKS via a Jenkins job using terraform. I here by to deploy EKS on AWS environments, specifying some settings via pipeline parameters.
 ![image](https://user-images.githubusercontent.com/35074202/111352925-08b84b00-8685-11eb-8913-4765d90d9986.png)
-                   Used draw.io(https://app.diagrams.net/) tool to define this diagram
+                                          Used draw.io(https://app.diagrams.net/) tool to define this diagram
 ### Jenkins pipeline
 
 Jenkins needs the following linux commands, which can either be installed via the Linux package manager or in the case of terraform, downloaded:
