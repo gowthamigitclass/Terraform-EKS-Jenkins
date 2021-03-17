@@ -5,10 +5,13 @@ Please proceed further and open the sub directories to see the tasks and respect
 #### Repo tree looks like:
 ```
 * terraform-eks-jenkins
-  * Part1
+  * Part1 (For the task specific, please go to #1_terraforming multi EKS + Monitoring + Mapping + Helm)
+  
     * #1_terraforming multi EKS + Monitoring + Mapping + Helm
-    * terraform_autoscaling nodes
     * terraforming EKS + helm (Basic)
-  * Part2
+    * terraforming_autoscale node groups (Add-on)
+    
+  * Part2 (Please go to Part2 for pipeline code and explaination)
+  
     * jenkinsfile
     * tf files
