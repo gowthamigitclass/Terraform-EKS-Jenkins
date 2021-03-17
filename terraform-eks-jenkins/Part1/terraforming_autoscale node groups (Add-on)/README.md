@@ -1,4 +1,4 @@
-# Autoscaling worker node gropus (To improvise our clusters HA)
+# Autoscaling node groups (To improvise our clusters HA)
 This module provisions nodes for your cluster by managing AWS auto scaling groups.
 
 ### Features
