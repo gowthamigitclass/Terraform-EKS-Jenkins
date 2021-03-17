@@ -10,13 +10,13 @@ data "aws_eks_cluster_auth" "cluster" {
   name = module.eks.cluster_id
 }
 
-variable "cluster_name" {
-  default = "our-cluster"
-}
+#variable "cluster_name" {
+#  default = "our-cluster"
+#}
 
-variable "instance_type" {
-  default = "m5.large"
-}
+#variable "instance_type" {
+#  default = "m5.large"
+#}
 
 provider "kubernetes" {
   host                   = data.aws_eks_cluster.cluster.endpoint
